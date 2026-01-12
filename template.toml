@@ -10,3 +10,6 @@ host = "${main_domain}"
 
 [config.env]
 WIREGUARD_HOST = "${main_domain}"
+
+# Set hash of your password for better security
+#WIREGUARD_PASSWORD = "${wg_password}"
