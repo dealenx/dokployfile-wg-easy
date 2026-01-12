@@ -1,14 +1,15 @@
 version: "1"
 meta:
-  slug: "databasus"
-  name: "Databasus"
-  version: "1.0.0"
-  description: "PostgreSQL backup tool with MySQL and MongoDB support"
-  logo: "postgresus.svg"
-  tags: ["PostgreSQL", "backup", "tool", "MySQL"]
+  slug: "wg-easy"
+  name: "WG-Easy"
+  version: "15"
+  description: "WG-Easy is a simple and user-friendly WireGuard VPN server with a web interface for easy management."
+  logo: "image.png"
+  tags: ["vpn", "wireguard", "networking"]
   links:
-    website: "https://databasus.com"
-    github: "https://github.com/databasus/databasus"
+    website: "https://wg-easy.github.io/"
+    github: "https://github.com/wg-easy/wg-easy"
+    docs: "https://github.com/wg-easy/wg-easy/wiki"
 template:
   compose: "docker-compose.yml"
   config: "template.toml"
